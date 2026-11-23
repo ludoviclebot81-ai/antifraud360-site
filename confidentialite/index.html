@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AntiFraud360 — Politique de confidentialité</title>
+<meta name="description" content="Ce que l'application AntiFraud360 conserve, ce qu'elle n'envoie jamais, et comment tout effacer.">
+<style>
+  /* Page destinée à être HÉBERGÉE, pas imprimée.
+     Trois contraintes commandent ce style :
+
+     1. Elle est lue sur un téléphone. La Play Console y renvoie depuis la
+        fiche, et c'est là que se trouve le lecteur.
+     2. Une partie du public a plus de soixante-dix ans. Corps à 18 px,
+        interligne 1,6, contrastes au-delà de 7:1 — skill accessibilite-senior.
+     3. Aucune ressource externe. Ni police distante, ni feuille de style, ni
+        script : la page doit fonctionner où qu'elle soit déposée, et ne rien
+        apprendre à personne sur qui la consulte. Une politique de
+        confidentialité qui chargerait une police distante se contredirait. */
+
+  :root {
+    --primaire:        #0B3B6F;
+    --texte:           #14213D;
+    --texte-secondaire:#465064;
+    --fond:            #F4F6FA;
+    --surface:         #FFFFFF;
+    --bordure:         #CBD2DC;
+    --conteneur:       #E6EEF8;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 24px 16px 64px;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--texte);
+    background: var(--fond);
+  }
+
+  main { max-width: 42rem; margin: 0 auto; }
+
+  h1 {
+    font-size: 1.9rem;
+    line-height: 1.25;
+    color: var(--texte);
+    margin: 0 0 4px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    color: var(--primaire);
+    margin: 40px 0 12px;
+    padding-top: 20px;
+    border-top: 1px solid var(--bordure);
+  }
+
+  h3 { font-size: 1.1rem; color: var(--primaire); margin: 24px 0 8px; }
+
+  p { margin: 0 0 14px; }
+
+  .date { color: var(--texte-secondaire); font-size: 1rem; margin-bottom: 28px; }
+
+  .retenir {
+    background: var(--conteneur);
+    color: var(--primaire);
+    border-radius: 12px;
+    padding: 20px 20px 8px;
+    margin: 0 0 8px;
+  }
+  .retenir p { font-weight: 600; }
+
+  blockquote {
+    margin: 16px 0;
+    padding: 14px 18px;
+    background: var(--surface);
+    border-left: 4px solid var(--primaire);
+    border-radius: 0 8px 8px 0;
+  }
+  blockquote p { margin: 0 0 8px; }
+  blockquote .source { font-size: .95rem; color: var(--texte-secondaire); margin: 0; }
+
+  /* Ce qui manque encore. Volontairement impossible à manquer : publier cette
+     page avec ces blocs en place serait pire que ne pas la publier. */
+  .a-completer {
+    background: #FFF4E0;
+    color: #6B3F00;
+    border: 2px dashed #9A5B00;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 16px 0;
+  }
+  .a-completer strong { display: block; margin-bottom: 6px; }
+
+  a { color: var(--primaire); }
+  a:focus-visible { outline: 3px solid var(--primaire); outline-offset: 2px; }
+
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--bordure);
+    color: var(--texte-secondaire);
+    font-size: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    body { font-size: 17px; padding: 20px 14px 48px; }
+    h1 { font-size: 1.6rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Politique de confidentialité</h1>
+  <p class="date">AntiFraud360 · version 1.3 du 23 novembre 2026</p>
+
+  <div class="retenir">
+    <p>Cette application fonctionne sans compte.</p>
+    <p>Ce que vous notez dans l'application reste sur votre téléphone. Elle ne l'envoie ni à nous, ni à personne.</p>
+    <p>Si vous nous écrivez, nous gardons votre message 6 mois après notre dernier échange.</p>
+    <p>Vous pouvez tout effacer en deux gestes.</p>
+  </div>
+
+  <h2>Ce qui reste sur votre téléphone</h2>
+
+  <p>L'application enregistre quatre choses, et elles ne quittent jamais l'appareil.</p>
+
+  <p><strong>Votre dossier.</strong> Le type d'arnaque que vous avez indiqué. Les étapes que vous avez faites, avec leur date. La liste des documents à réunir.</p>
+
+  <p>Vous pouvez y ajouter un montant et une date. Ces deux informations sont facultatives. Elles restent vides tant que vous ne les écrivez pas.</p>
+
+  <p><strong>Votre banque, si vous l'enregistrez.</strong> Le nom que vous lui donnez, et le numéro ou l'agence par lesquels vous la joignez. Vous seul les écrivez : l'application ne vous propose aucune banque et ne connaît aucun numéro.</p>
+
+  <p>Ce champ est facultatif. Il reste vide tant que vous ne le remplissez pas, et un bouton l'efface.</p>
+
+  <p><strong>Ce que vous avez déjà vu.</strong> L'application retient que la présentation du premier lancement vous a été montrée, et quelles alertes vous avez ouvertes. Cela lui évite de vous les remontrer.</p>
+
+  <p><strong>Le contenu vérifié.</strong> Les textes officiels que l'application affiche, avec leurs sources et leurs dates.</p>
+
+  <p>Ces quatre éléments sont dans l'espace privé de l'application. Les autres applications de votre téléphone n'y ont pas accès.</p>
+
+  <h2>Ce que l'application ne conserve jamais</h2>
+
+  <p>Elle ne garde aucun document. Ni photo, ni relevé, ni capture d'écran.</p>
+
+  <p>La liste des preuves note ce que vous devez réunir. Elle ne contient pas les documents eux-mêmes. Ils restent là où ils sont déjà.</p>
+
+  <p>L'application vous demande de ne jamais y écrire trois choses.</p>
+
+  <p>Une pièce d'identité. Un numéro de compte complet. La photo d'un document officiel.</p>
+
+  <p>Elle ne garde pas non plus le numéro que vous saisissez pour un signalement.</p>
+
+  <h2>Ce qui sort de votre téléphone</h2>
+
+  <p>Une seule chose : l'application télécharge le contenu vérifié qu'elle vous affiche.</p>
+
+  <p>C'est un téléchargement. Elle ne vous envoie pas. Elle va chercher un fichier public, le même pour tout le monde.</p>
+
+  <p>Ce fichier ne contient rien de vous.</p>
+
+  <p>Comme tout téléchargement sur Internet, il passe par un serveur. Ce serveur voit l'adresse de votre connexion (l'adresse IP).</p>
+
+  <p>Ce serveur est celui de notre hébergeur, Supabase, situé à Paris. Il garde ses journaux techniques 1 jour. Nous n'utilisons pas cette adresse.</p>
+
+  <h3>Le signalement d'un numéro</h3>
+
+  <p>Quand vous signalez un numéro, l'application prépare un message.</p>
+
+  <p>C'est vous qui l'envoyez, depuis votre application de messages. L'application ne l'envoie pas à votre place et n'en garde pas de copie.</p>
+
+  <h2>Ce que nous ne faisons pas</h2>
+
+  <p>Nous ne vous demandons pas de créer un compte.</p>
+
+  <p>Nous ne vous demandons ni votre nom, ni votre adresse, ni votre courriel.</p>
+
+  <p>L'application ne contient aucun outil de mesure d'audience. Elle n'envoie aucun rapport quand elle rencontre un problème. Elle n'utilise aucun identifiant publicitaire.</p>
+
+  <p>Nous ne vendons rien à personne.</p>
+
+  <p>Nous ne transmettons à personne les messages que vous nous envoyez.</p>
+
+  <h2>Ce que l'application demande à votre téléphone</h2>
+
+  <p>Deux autorisations, et rien d'autre.</p>
+
+  <p><strong>L'accès à Internet</strong>, pour télécharger le contenu vérifié.</p>
+
+  <p><strong>L'état de la connexion</strong>, pour savoir s'il faut essayer. Sans cela, vous attendriez devant un écran vide.</p>
+
+  <p>Elle ne demande rien d'autre.</p>
+
+  <p>Ni vos contacts. Ni vos messages. Ni votre téléphone. Ni vos photos. Ni votre position.</p>
+
+  <h2>Comment tout effacer</h2>
+
+  <p>Ouvrez les réglages de l'application. Choisissez « Effacer les données de l'application ».</p>
+
+  <p>Tout disparaît : votre dossier, votre banque si vous l'avez notée, ce que vous avez déjà vu, le contenu téléchargé. C'est immédiat et définitif.</p>
+
+  <p>Vous pouvez aussi supprimer le dossier seul, depuis l'écran « Mon dossier », et votre banque seule, depuis les réglages.</p>
+
+  <p>Désinstaller l'application efface également tout.</p>
+
+  <h2>Si vous nous écrivez</h2>
+
+  <p>Notre adresse : <a href="mailto:contact@antifraud360.com">contact@antifraud360.com</a>.</p>
+
+  <p>Vous n'avez jamais besoin de nous écrire pour utiliser l'application.</p>
+
+  <p>Nous ne sommes ni une banque, ni la police, ni un service de l'État. Nous ne pouvons ni bloquer un paiement, ni enregistrer une plainte.</p>
+
+  <p>Si vous nous écrivez, nous recevons votre adresse électronique, votre message et les fichiers que vous y joignez. Nous les utilisons pour vous répondre, et pour rien d'autre.</p>
+
+  <p>Ils sont conservés par notre hébergeur de messagerie, OVHcloud.</p>
+
+  <p>Nous les gardons 6 mois après notre dernier échange. Ensuite, nous les effaçons.</p>
+
+  <p><strong>N'envoyez jamais de pièce d'identité ni de numéro de compte complet.</strong> Nous n'en avons pas besoin. Si vous nous en envoyez, nous les effaçons dès réception.</p>
+
+  <h2>Vos droits</h2>
+
+  <p>Le règlement européen vous donne des droits sur vos informations.</p>
+
+  <p>Vous pouvez les consulter, les corriger et les effacer.</p>
+
+  <p>Pour ce que vous notez dans l'application, ces droits s'exercent depuis votre téléphone, sans nous écrire. Vos informations sont chez vous. Vous les voyez, vous les modifiez, vous les effacez quand vous voulez.</p>
+
+  <p>Pour les messages que vous nous avez envoyés, écrivez à <a href="mailto:contact@antifraud360.com">contact@antifraud360.com</a>.</p>
+
+  <p>La CNIL est l'autorité française pour la protection des données. Elle le décrit ainsi :</p>
+
+  <blockquote>
+    <p>« La CNIL vous informe sur les différents droits que vous pouvez exercer auprès des organismes qui utilisent vos données. »</p>
+    <p class="source">Source : Commission nationale de l'informatique et des libertés ·
+      <a href="https://www.cnil.fr/fr/mes-demarches/les-droits-pour-maitriser-vos-donnees-personnelles">cnil.fr</a>
+      · vérifié le 30 août 2026</p>
+  </blockquote>
+
+  <h2>Qui édite cette application</h2>
+
+  <p>Cette application est éditée par <strong>IRONIQ</strong>, société par actions simplifiée
+     à associé unique, immatriculée sous le numéro SIREN 105 572 275.</p>
+
+  <p>Siège social : 530 avenue de Saint-Cyr, 11590 Sallèles-d'Aude, France.</p>
+
+  <p>Représentant légal : Ludovic Le Bot, président.</p>
+
+  <p>Responsable du traitement de vos données : IRONIQ, à la même adresse.</p>
+
+  <p>Pour nous joindre : <a href="mailto:contact@antifraud360.com">contact@antifraud360.com</a>.</p>
+
+  <h2>Si cette politique change</h2>
+
+  <p>Elle décrit ce que fait l'application aujourd'hui.</p>
+
+  <p>Si elle se met un jour à envoyer quelque chose, ce texte le dira.</p>
+
+  <p>Il le dira <strong>avant</strong> que cela n'arrive, jamais après.</p>
+
+  <footer>
+    <p>Service indépendant. Non affilié à l'État, à la police, ni à une banque.</p>
+    <p>Information, pas conseil juridique.</p>
+  </footer>
+
+</main>
+</body>
+</html>
